@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <link href = "https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&family=Inter:wght@100;200;300;700;800;900&family=Raleway:wght@100;300;400;500;600;700&family=Varela+Round&display=swap"
+          rel = "stylesheet">
+    <meta content = "width=device-width initial-scale=1.0" name = "viewport">
+    <title>Alura-Geek</title>
+    <link href = "../assets/css/normalize.css" rel = "stylesheet"/>
+    <link href = "../assets/css/reset.css" rel = "stylesheet"/>
+    <link href = "../assets/css/variables.css" rel = "stylesheet"/>
+    <link href = "../assets/css/header.css" rel = "stylesheet">
+    <link href = "../assets/css/footer.css" rel = "stylesheet">
+    <link href = "../assets/css/banner.css" rel = "stylesheet">
+    <link href = "../assets/css/admin-products/products.css" rel = "stylesheet">
+</head>
+<body>
+<header class = "header__container">
+    <div class = "header__items">
+        <a class = "header__logoHome" href = "../index.html">
+            <img alt = "logo" class = "header__logoHome-image" src = "../assets/img/logo.svg">
+        </a>
+        <div class = "header__search">
+            <input class = "header__search-input"
+                   id = "search__items"
+                   placeholder = " Qué desea buscar ?"
+                   type = "text">
+            <button class = "header__search-button"><img alt = ""
+                                                         class = "header__search-icon"
+                                                         src = "../assets/img/header/search.svg"></button>
+        </div>
+    </div>
+
+    <a class = "header__login" href = "login.html">
+        <button class = "header__login-button">Login</button>
+    </a>
+</header>
+<main>
+    <section class = "banner">
+        <div class = "banner__continer">
+            <div class = "banner__continer-show banner__continer-img">
+                <div class = "banner__info">
+                    <h2 class = "banner__info-title">Febrero Promocional</h2>
+                    <p class = "banner__info-description">Productos seleccionados con 33% de descuento</p>
+                    <a href = "#" rel = "">
+                        <button class = "banner__button">Ver Consolas</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--All Products section -->
+    <section class = "products">
+        <div class = "product__container">
+            <div class = "product__header">
+                <h2 class = "product__title">Todos Los Productos</h2>
+            </div>
+            <div class = "product__list" data-adminProducts></div>
+        </div>
+    </section>
+</main>
+<footer>
+    <section class = "contacto__container">
+        <div class = "contacto__logo">
+            <a href = "../index.html">
+                <img alt = "logo" class = "contacto__logoFooter" src = "../assets/img/logo.svg">
+            </a>
+        </div>
+        <div class = "contacto__info">
+            <ul>
+                <li class = "contacto__info-li"><a class = "contacto__info-text" href = "#">Quienes somos</a></li>
+                <li class = "contacto__info-li"><a class = "contacto__info-text" href = "#">Política de privacidad</a>
+                </li>
+                <li class = "contacto__info-li"><a class = "contacto__info-text" href = "#">Programa de fidelidad</a>
+                </li>
+                <li class = "contacto__info-li"><a class = "contacto__info-text" href = "#">Nuestras Tiendas</a></li>
+                <li class = "contacto__info-li"><a class = "contacto__info-text" href = "#">Quiero ser franquiciado</a>
+                </li>
+                <li class = "contacto__info-li"><a class = "contacto__info-text" href = "#">Anúncie aquí</a></li>
+            </ul>
+        </div>
+        <form class = "contacto__contactar" id = "form__data">
+            <h2 class = "contacto__contactar-title">Hable con nosotros</h2>
+
+            <label class = "contacto__contactar-nombre contacto__textBox">
+                Nombre
+                <input class = "contacto__contactar-nombreInput" id = "contact__nombre" name = "nombre" placeholder = "Pedro Santana"
+                       required type = "text">
+            </label>
+
+            <label class = "contacto__mensaje contacto__textBox">
+                Escribe tu mensaje
+                <textarea class = "contacto__mensaje-text" id = "contact__mensaje" required></textarea>
+            </label>
+
+            <input class = "contacto__button" id = "contact__boton" type = "submit" value = "Enviar mensaje">
+        </form>
+    </section>
+    <div class="info__dev">
+        <p>Desarrollado por Angeles Barrios</p>
+        <p>2023</p>
+        <a href="https://github.com/angybg"><img src="/assets/img/github.svg " alt="git"></a>
+        <a href="https://www.linkedin.com/in/angeles-barrios/"><img src="/assets/img/linkedin.svg" alt="linkedin"></a>
+    </div>
+</footer>
+<script src = "../controllers/productsController.js" type = "module"></script>
+<script src = "../controllers/form-validation.js"></script>
+<script src = "../controllers/search.js"></script>
+<script src = "//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>

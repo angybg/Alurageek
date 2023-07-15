@@ -1,0 +1,224 @@
+{
+  "users": [
+    {
+      "name": "test",
+      "email": "test@test.test",
+      "password": "123",
+      "id": "e330000b-cadd-4a35-911f-c08d8eb4520d"
+    },
+    {
+      "name": "Carlos",
+      "email": "carlos@c.C",
+      "password": "c",
+      "id": "beb63de4-60e3-49a9-8c0d-fcb20430cb50"
+    },
+    {
+      "name": "1",
+      "email": "cesar@gmail.com",
+      "password": "123",
+      "id": "d336f49d-c9f2-49ff-91fe-804b38fe4694"
+    },
+    {
+      "name": "tati",
+      "email": "tatiana27ocean@gmail.com",
+      "password": "1234",
+      "id": "cdbd2176-5eed-4e5e-871b-8b9c02d74cb0"
+    },
+    {
+      "name": "angy",
+      "email": "angy@gmail.com",
+      "password": "1234",
+      "id": "dcf2d46d-1b14-44e1-8469-fc7d5490582d"
+    },
+    {
+      "name": "Daisy",
+      "email": "daisy@dog.com",
+      "password": "daisy",
+      "id": "01a21634-1a92-453b-beb6-f1e5dcd9a27c"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Star Wars"
+    },
+    {
+      "id": 2,
+      "name": "Consolas"
+    },
+    {
+      "id": 3,
+      "name": "Diversos"
+    }
+  ],
+  "productos": [
+    {
+      "imageUrl": "data:image/png;base64,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",
+      "name": "master Yoda",
+      "price": "$50.00",
+      "categoria": "StarWars",
+      "description": "Sticker",
+      "id": "e0ea324b-356a-4423-a619-09338941354b"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/564x/60/89/f3/6089f31a8780b19e3ffb12cbe369b7da.jpg",
+      "name": "ART, Mini Darkvader ",
+      "price": "$100.00",
+      "categoria": "StarWars",
+      "description": "Darth Vader (Tatooine, 41 ABY - Estrella de la Muerte, 4 DBY), también conocido por su nombre de nacimiento Anakin Skywalker, es un personaje de ficción en la franquicia de Star Wars. Vader aparece en la trilogía original como un antagonista cuyas acciones dirigen la trama, mientras que su pasado como Anakin Skywalker y la historia de su corrupción por Darth Sidious y su paso al Lado Oscuro son centrales en la narrativa de la trilogía de la precuela.  El personaje fue creado por George Lucas y ha sido retratado por numerosos actores. Sus apariciones abarcan las primeras seis películas de Star Wars, así como Rogue One, y su personaje está fuertemente referenciado en Star Wars: Episodio VII - El despertar de la Fuerza. También es un personaje importante en el universo expandido de Star Wars de series de televisión, videojuegos, novelas, literatura y cómics. Darth Vader se ha convertido en uno de los villanos más emblemáticos de la cultura popular, y ha figurado entre los más grandes villanos y personajes ficticios de la historia.2​3​  Vader a pesar de ser de una maldad tan pura, aún conserva sus sentimientos a su fallecido esposa Padme Amidala, cómo después a su hijo Luke. También tiene una extraña y desconocida obsesión por el orden y en menor medida la justicia en la galaxia sea por intenciónes benévolas o lo contrario. Al principio de llevar portar su armadura biónica odiaba su personalidad de Darth Vader tanto como la armadura propia hasta el punto de dudar si había elegido un camino correcto, aunque después unos cinco años después de la fundación del Imperio Galáctico acepta la retorcida ideología del lado oscuro de La Fuerza hasta el punto de aceptar su armadura y purgar casi todo lo que quedaba de su luz interior.",
+      "id": "9eaa1a1e-8628-4cbf-a3a3-6d2d0b3e1c9e"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/736x/54/9f/a6/549fa61cfa4ee1d2abfb133dd2ad6c01.jpg",
+      "name": "Ps4 Control Personalizado",
+      "price": "$70.00",
+      "categoria": "Consolas",
+      "description": "Custom control para playStation 4.\n\nHermoso control para tu coleccion.",
+      "id": "cfc5e01d-20fb-4a41-8dd2-0040dcf8826b"
+    },
+    {
+      "imageUrl": "https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/vanguard/comics/arthur/VANGUARD_01_layout_FINAL24.jpg",
+      "name": "Call of Duty®: Vanguard ",
+      "price": "$70",
+      "categoria": "Consolas",
+      "description": "La galardonada saga de Call of Duty® vuelve con Call of Duty®: Vanguard, donde los jugadores experimentarán influyentes batallas de la Segunda Guerra Mundial mientras luchan por la victoria en los frentes oriental y occidental de Europa, el Pacífico y el Norte de África.",
+      "id": "6ae6f0b1-c194-4c7c-a08f-7b6460d3ff88"
+    },
+    {
+      "imageUrl": "https://m.media-amazon.com/images/I/616MzNFe+8L._SL1500_.jpg",
+      "name": "PlayStation 5",
+      "price": "$850.75",
+      "categoria": "Consolas",
+      "description": "es una consola de videojuegos de sobremesa desarrollada por la empresa Sony Interactive Entertainment. Fue anunciada en el año 2019 como la sucesora de la PlayStation 4, la PS5 se lanzó el 12 de noviembre de 2020 en Australia, Japón, Nueva Zelanda, América del Norte, Singapur y Corea del Sur, y en el resto de países el 19 de noviembre de 2020. La PlayStation 5 junto con la Xbox Series X|S de Microsoft, lanzada el mismo mes, son parte de la novena generación de consolas de videojuegos.\n\nLa plataforma se lanzó en dos variantes: un modelo base con una unidad de disco óptico compatible con Ultra HD Blu-ray y una edición digital que carece de esta unidad, que sirve como modelo de menor costo para quienes prefieren comprar videojuegos mediante descarga digital.\n\nLas principales características de hardware de la PlayStation 5 incluyen una unidad de estado sólido personalizada para transmisión de datos de alta velocidad para permitir mejoras significativas en el rendimiento del almacenamiento, una GPU AMD capaz de mostrar una resolución de 4K de hasta 120 cuadros por segundo, trazado de rayos acelerado por hardware para realismo, iluminación y reflejos y el motor Tempest que permite efectos de audio 3D acelerados por hardware. Otras características incluyen el controlador DualSense con retroalimentación háptica y compatibilidad con versiones anteriores de la mayoría de los videojuegos de PlayStation 4 y PlayStation VR.",
+      "id": "0515aaa6-6324-49b9-99a9-ebc168160964"
+    },
+    {
+      "imageUrl": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/airpod-max-202011-gallery-5_FMT_WHH?wid=1000&hei=850&fmt=jpeg&qlt=90&.v=1607440699000",
+      "name": "AirPods Max by Apple",
+      "price": "$549.00",
+      "categoria": "Diversos",
+      "description": "Controlador dinámico diseñado por Apple\nCancelación Activa de Ruido\nModo Ambiente\nAudio espacial con seguimiento dinámico del movimiento de la cabeza1\nEcualización Adaptativa\n\nSensor óptico (en cada audífono)\nSensor de posición (en cada audífono)\nDetector de funda (en cada audífono)\nAcelerómetro (en cada audífono)\nGiroscopio (audífono izquierdo)\nMicrófonos\nNueve micrófonos en total:\n\nOcho micrófonos para la Cancelación Activa de Ruido\nTres micrófonos para captar la voz (dos compartidos con la Cancelación Activa de Ruido y uno adicional)\nChip\nChip H1 de Apple para audífonos (en cada audífono)\n\nControles\nDigital Crown\n\nGira para controlar el volumen\nPresiona una vez para reproducir, pausar o contestar una llamada\nPresiona dos veces para avanzar\nPresiona tres veces para retroceder\nBotón de control de ruido\n\nPresiona para cambiar entre Cancelación Activa de Ruido y modo Ambiente",
+      "id": "d77d874c-8778-42f1-8a02-d8e6a705cfc5"
+    },
+    {
+      "imageUrl": "https://bufallo.uy/wp-content/uploads/2020/11/LqsksvzfE8X2tNAosapGwh.jpg",
+      "name": "AirPods Pro by Apple",
+      "price": "$289. En 0",
+      "categoria": "Diversos",
+      "description": "Tecnología de audio\nControlador de alta excursión diseñado por Apple\nAmplificador exclusivo con alto rango dinámico\nCancelación Activa de Ruido\nModo Ambiente\nEcualización de presión mediante un sistema de ventilación\nAudio espacial con seguimiento dinámico del movimiento de la cabeza1\nEcualización Adaptativa\nSensores\nDos micrófonos con tecnología beamforming\nMicrófono orientado hacia adentro\nDos sensores ópticos\nAcelerómetro con detección de movimiento\nAcelerómetro con detección de voz\nSensor de fuerza\nChip\nChip H1 para audífonos\n\nControles\nPresiona una vez para reproducir, pausar o contestar una llamada\nPresiona dos veces para avanzar\nPresiona tres veces para retroceder\nMantén presionado para cambiar entre Cancelación Activa de Ruido y modo Ambiente",
+      "id": "bf69cef6-8af8-44b7-8cdb-bfa30b8d1b5d"
+    },
+    {
+      "imageUrl": "https://i5.walmartimages.com/asr/d01ae56f-3ac2-4ad1-94ea-37bbfa992011.33292b347aecd4c9162b3381e4a53a01.jpeg",
+      "name": "XCBOX Control",
+      "price": "$69.99",
+      "categoria": "Consolas",
+      "description": "Custom control",
+      "id": "4174188c-b724-4b27-9951-2e21de3b5506"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/564x/c2/40/3d/c2403d3185991993c6aa7532bd997ef6.jpg",
+      "name": "ART, The Mandalorian and Baby Yoda",
+      "price": "$80.99",
+      "categoria": "StarWars",
+      "description": "hermoso arte  donde se puede apreciar al mandaloriano, baby yoda y un  blurrg\n\nLos blurrg fueron una especie no inteligente, con dos patas y usada en tareas de carga por toda la galaxia. Los blurrgs fueron notablemente usados por la Resistencia Twi'lek y el Movimiento Ryloth Libre durante las Guerras Clon y la Era Imperial, y también fueron usados por el granjero de humedad Kuiil en Arvala-7.",
+      "id": "3eed7026-ee93-46ac-a9bf-745dd3747748"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/564x/28/e6/27/28e627ab177f2599c2aefcd66f1f61f4.jpg",
+      "name": "Baby Yoda",
+      "price": "$54.00",
+      "categoria": "StarWars",
+      "description": "Muñeco con armadura: \nbaby yoda, listo para la batalla.\n\n",
+      "id": "cb730e61-97f8-4fe8-aabf-4c3db553cc0c"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/564x/20/4c/e3/204ce3ce96655860c7464a181dd96ba0.jpg",
+      "name": "Sticker  starbucks",
+      "price": "$5.00",
+      "categoria": "StarWars",
+      "description": "sticker ",
+      "id": "23ba121e-1cb8-4d71-b6f3-9e6d52b20470"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/564x/78/2d/85/782d8561488271658fc9bb2a0ccd04ea.jpg",
+      "name": "Nintendo Switch: Fortnite - Double Helix Bundle",
+      "price": "$275.00",
+      "categoria": "Consolas",
+      "description": "Nintendo Switch - Joy-Con azul neón y rojo neón\n1,000 V-bucks (moneda de Fortnite en el juego que puedes usar para comprar un Pase de batalla u otros artículos en el juego)\nConjunto de doble hélice, que consta de un traje de personaje único, Back Bling, Glider y Pickaxe",
+      "id": "89a365f2-00d2-465d-bbaf-a405aed6255f"
+    },
+    {
+      "imageUrl": "https://i.pinimg.com/564x/44/56/8c/44568c4a3c14384d92d408a0189db673.jpg",
+      "name": " Insignia™ Joy-Con Charging Station ",
+      "price": "$33.00",
+      "categoria": "Consolas",
+      "description": "Insignia™ - Joy-Con Charging Station for Nintendo Switch - Black\nModel:NS-GNSJCCS18SKU:5894301",
+      "id": "529959de-570d-4fdf-b0ee-e13733b4852d"
+    },
+    {
+      "imageUrl": "https://i.ebayimg.com/images/g/00AAAOSwP~diAbs3/s-l500.jpg",
+      "name": "Gaming Headset LED Stereo Bass ",
+      "price": "$10.00",
+      "categoria": "Diversos",
+      "description": "Gaming Headset 3.5mm Mic LED Headphones Stereo Bass Surround For PC Xbox One PS4\n\nSpecification: \n\nSpeaker diameter: 40mm\nPlug: 3.5mm\nDriver Impedance: 32 ohm\nSensitivity: 102dB±3dB\nFrequency response: 20Hz-20KHz\nMicrophone diameter: 6.0 * 5.0mm\nMicrophone directivity: omnidirectional\nPlug: 3.5mm microphone and earphone plug + USB interface\nMicrophone sensitivity: -36±3dB\nCable length: about 2.2 meters\nLED working voltage: DC5V±5%\nWorking current: ≤100mA\nHeadphone weight: 12.8 Oz",
+      "id": "2a81d270-76a6-418c-b33f-a1b05136f831"
+    },
+    {
+      "imageUrl": "https://i.ebayimg.com/images/g/~QsAAOSwXlpgmN8k/s-l500.jpg",
+      "name": "Gaming Computer Mouse Pad ",
+      "price": "$12.00",
+      "categoria": "Selecciona la seccion",
+      "description": "Gaming Computer Mouse Pad World Map Mouse Mat Desk Mat Non-Slip Rubber B.AUJ J-\n\nCaracterísticas:\n1, bordes cosidos duraderos: esta alfombrilla de ratón tiene bordes delicados que pueden evitar el desgaste. Asegurar un uso prolongado sin deformación y desgomado.\n2, superficie lisa: la textura es más densa. El mouse se puede mover rápidamente y colocar con precisión para garantizar un control más suave del mouse. Perfecto para su computadora portátil, computadora y PC.,3, Base de goma antideslizante: el sombreado denso y la base de goma natural antideslizante pueden sujetar firmemente el escritorio. Material suave de primera calidad para su comodidad y control del mouse.,\n4, diseño lavable y evita la decoloración: esta alfombrilla de ratón está hecha de un gran efecto de bloqueo de color. Las manchas líquidas se pueden limpiar con agua para uso continuo. Y no se desvanecerá con la limpieza repetida.\nAmplia aplicabilidad: disponible para todo tipo de mouse, láser y óptico. Tamaño ideal para uso diario.\n\n\nPaquete que incluye: 1 ud.\n\nNota:\n1. Debido a la diferencia de luz, el color puede ser ligeramente diferente\n2. Permita diferencias de 1-5 mm debido a la medición manual",
+      "id": "0e4e5716-a86c-4940-a13d-116c87aa393a"
+    },
+    {
+      "imageUrl": "https://m.media-amazon.com/images/I/51Z4rNnv3kL._AC_SX466_.jpg",
+      "name": "COUGAR 700M EVO Esports 16000 DPI ratón óptico",
+      "price": "$90.00",
+      "categoria": "Diversos",
+      "description": "COUGAR 700M EVO Esports 16000 DPI ratón óptico para juegos con reposamanos ajustable, pesos y botones totalmente configurables",
+      "id": "0891f7aa-853e-49cc-a97c-f8a8e97e1517"
+    },
+    {
+      "imageUrl": "https://m.media-amazon.com/images/I/5148SrUPX5L._AC_SX466_.jpg",
+      "name": "COUGAR DUALBLADER Ratón para juegos",
+      "price": "$80.00",
+      "categoria": "Diversos",
+      "description": "Diseño de dinastruta evolutiva: el nuevo ratón de doble blader icónico para juegos cuenta con un soporte de palma ergonómico y ajustable totalmente personalizable. Vale la pena mencionar que DUALBLADER está equipado con el nuevo concepto evolutivo: Dynasrut diseño (pendiente de patente). Proporciona dos despliegues (agarre de garra/palma) a través del ajuste de altura para que los jugadores elijan. Esto hace que los jugadores puedan cambiar diferentes estilos mientras juegan diferentes juegos.\nComponentes personalizados: DUALBLADER también proporciona dos juegos de agarres laterales intercambiables (grande/pequeño), cuatro botones desmontables y dos tamaños de reposamanos. Los jugadores pueden utilizar esos componentes para crear el mejor ajuste que necesitan o ajustan. Además, COUGAR soporta los archivos 3D de código abierto de los agarres laterales y botones de DUALBLADER, DIYer podría descargar estos archivos 3D y rediseñarlos para hacer una forma única por sí sola. Ofrece más posibilidades para dualblader y hace que sea divertido con el bricolaje",
+      "id": "bc872b45-f582-4cd9-82b4-9feb69d79406"
+    },
+    {
+      "imageUrl": "https://m.media-amazon.com/images/I/71q2Ih1dCzL._AC_SX679_.jpg",
+      "name": "Soporte para monitor y portátil ",
+      "price": "$60.00",
+      "categoria": "Diversos",
+      "description": "Soporte para monitor y portátil con bandeja para portátil de 13 a 27 pulgadas, soporte de escritorio totalmente ajustable para portátil de hasta 17 pulgadas, peso de hasta 22 libras, extensión con abrazadera y base de montaje con ojal",
+      "id": "20a7432e-271d-4187-b56a-a64880503002"
+    },
+    {
+      "imageUrl": "https://m.media-amazon.com/images/I/61SkDLmOssL._AC_SX466_.jpg",
+      "name": "Alfombrilla de mouse LED RGB para juegos,",
+      "price": "$10.00",
+      "categoria": "Selecciona la seccion",
+      "description": "EUREKA ERGONOMIC Alfombrilla de mouse LED RGB para juegos, XXL, grande, extendida, para oficina, computadora, computadora, computadora, computadora, computadora, computadora, computadora, computadora, computadora, computadora, computadora, alfombrilla de mouse con base de goma antideslizante, negro y verde MARRS, 31.5 x 11.8 pulgadas",
+      "id": "102e2a6e-686b-4c63-a922-49a0d000e6f3"
+    },
+    {
+      "imageUrl": "https://m.media-amazon.com/images/I/612kvNOy5xL._AC_SX466_.jpg",
+      "name": "Alfombrilla de ratón para juegos, tamaño XXL,",
+      "price": "$10.00",
+      "categoria": "Selecciona la seccion",
+      "description": "Tamaño grande: el grosor de la alfombrilla de ratón es de 0.118 in para mejorar la comodidad de la muñeca. El tamaño de 31.5 x 11.8 pulgadas se adapta perfectamente a tu escritorio. Esta gran alfombrilla de ratón para juegos se adapta perfectamente a tu teclado y ratón, y también hay espacio adicional para periféricos como teléfonos y tabletas.\nBase de goma antideslizante: sombreado denso y base de goma antideslizante que proporcionan un agarre pesado que evita el deslizamiento o el movimiento de las alfombrillas de mouse, te ofrece un funcionamiento estable y te permite mover libremente tu mouse sin interrupciones, disponible para cualquier superficie plana y dura de mesa.",
+      "id": "41c776dd-ed2d-4ecd-95d8-4d33ef0c13ac"
+    },
+    {
+      "imageUrl": "https://m.media-amazon.com/images/I/31RBNciAEoS._AC_.jpg",
+      "name": "Peluche Cooky",
+      "price": "10.00",
+      "categoria": "Diversos",
+      "description": "Pequeño llavero peluche de bt21 Cooky",
+      "id": "fe871975-c5e6-4156-8626-38fb4b9ce7ee"
+    }
+  ]
+}
