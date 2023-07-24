@@ -1,12 +1,6 @@
 {
   "users": [
     {
-      "name": "test",
-      "email": "test@test.test",
-      "password": "123",
-      "id": "e330000b-cadd-4a35-911f-c08d8eb4520d"
-    },
-    {
       "name": "Carlos",
       "email": "carlos@c.C",
       "password": "c",
@@ -35,6 +29,12 @@
       "email": "daisy@dog.com",
       "password": "daisy",
       "id": "01a21634-1a92-453b-beb6-f1e5dcd9a27c"
+    },
+    {
+      "name": "Liam Morales",
+      "email": "liam@gmail.com",
+      "password": "liam",
+      "id": "1ff74d90-2de5-42fb-ad63-97f76b2d256e"
     }
   ],
   "categories": [
@@ -219,6 +219,14 @@
       "categoria": "Diversos",
       "description": "Pequeño llavero peluche de bt21 Cooky",
       "id": "fe871975-c5e6-4156-8626-38fb4b9ce7ee"
+    },
+    {
+      "imageUrl": "https://m.media-amazon.com/images/I/817hf6mCrSL.__AC_SY445_SX342_QL70_ML2_.jpg",
+      "name": "Lámpara 3D Star Wars - Star Wars regalos - Star Wars luz - Star Wars lámpara y regalo perfecto para niños y fans de Star Wars (3 piezas)",
+      "price": "451.98",
+      "categoria": "StarWars",
+      "description": "Efecto de visión 3D: las lámparas LED 3D mágicas juegan trucos en tus ojos, es una placa de vidrio guía de luz en real. Especialmente parece una luz nocturna 3D real en la oscuridad o tomar una fotografía, la emoción de visión será fuerte",
+      "id": "8a7a7ee8-460a-4bd9-8591-29e95b7b8e3a"
     }
   ]
 }

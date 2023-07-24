@@ -61,6 +61,7 @@
     padding: 16px 70px;
     margin: 0 1rem;
     background-color: transparent;
+    border-radius: 10px;
     border: 1px solid var(--color_fondo-o-letra_botones-2);
     cursor: pointer;
     text-decoration: none;
