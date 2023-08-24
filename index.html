@@ -13,6 +13,7 @@
     <link href="assets/css/banner.css" rel="stylesheet">
     <link href="assets/css/admin-products/products.css" rel="stylesheet">
     <link href="assets/css/admin-products/product__details.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body>
 <header class="header__container">
@@ -28,6 +29,7 @@
     <a class="header__login" href="screens/login.html">
         <button class="header__login-button">Login</button>
     </a>
+    <a href="#" class="header__lupa2" onclick><i class="fa-solid fa-magnifying-glass"></i></a>
 </header>
 <main>
     <section class="banner">
@@ -48,9 +50,9 @@
         <div class="product__container">
             <div class="product__header">
                 <h2 class="product__title">Star Wars</h2>
-                <a class="product__mostrar" href="screens/allProducts.html">ver todos<img alt="ver todos icon" src="assets/img/productos/arow.svg"></a>
+                <a class="product__mostrar" href="screens/allProducts.html" onclick="">Ver todos<img alt="ver todos icon" src="assets/img/productos/arow.svg"></a>
             </div>
-            <div class="product__list" data-starWarsCategory></div>
+            <div class="product__list card__hidden" data-starWarsCategory></div>
         </div>
     </section>
     <!--Consolas section -->
@@ -58,9 +60,9 @@
         <div class="product__container">
             <div class="product__header">
                 <h2 class="product__title">Consolas </h2>
-                <a class="product__mostrar" href="screens/allProducts.html">ver todos<img alt="ver todos icon" src="assets/img/productos/arow.svg"></a>
+                <a class="product__mostrar" href="screens/allProducts.html" onclick="">Ver todos<img alt="ver todos icon" src="assets/img/productos/arow.svg"></a>
             </div>
-            <div class="product__list" data-consolasCategoria></div>
+            <div class="product__list card__hidden" data-consolasCategoria></div>
         </div>
     </section>
     <!--    Diversos section  -->
@@ -68,9 +70,9 @@
         <div class="product__container">
             <div class="product__header">
                 <h2 class="product__title">Diversos </h2>
-                <a class="product__mostrar" href="screens/allProducts.html">ver todos<img alt="ver todos icon" src="assets/img/productos/arow.svg"></a>
+                <a class="product__mostrar" href="screens/allProducts.html">Ver todos<img alt="ver todos icon" src="assets/img/productos/arow.svg"></a>
             </div>
-            <div class="product__list" data-diversosCategoria></div>
+            <div class="product__list card__hidden" data-diversosCategoria></div>
         </div>
     </section>
 </main>
@@ -109,13 +111,14 @@
     <div class="info__dev">
         <p>Desarrollado por Angeles Barrios</p>
         <p>2023</p>
-        <a href="https://github.com/angybg"><img src="/assets/img/github.svg " alt="git"></a>
-        <a href="https://www.linkedin.com/in/angeles-barrios/"><img src="/assets/img/linkedin.svg" alt="linkedin"></a>
+        <a href="https://github.com/angybg" target="_blank"><i class="fa-brands fa-github" style="color: #06176a;"></i></a>
+        <a href="https://www.linkedin.com/in/angybg/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #06176a;"></i></a> 
     </div>
 </footer>
 <script src="controllers/productsController.js" type="module"></script>
 <script src="controllers/form-validation.js"></script>
 <script src="controllers/search.js"></script>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="controllers/script-search.js"></script>
 </body>
 </html>

@@ -1,24 +1,6 @@
 {
   "users": [
     {
-      "name": "Carlos",
-      "email": "carlos@c.C",
-      "password": "c",
-      "id": "beb63de4-60e3-49a9-8c0d-fcb20430cb50"
-    },
-    {
-      "name": "1",
-      "email": "cesar@gmail.com",
-      "password": "123",
-      "id": "d336f49d-c9f2-49ff-91fe-804b38fe4694"
-    },
-    {
-      "name": "tati",
-      "email": "tatiana27ocean@gmail.com",
-      "password": "1234",
-      "id": "cdbd2176-5eed-4e5e-871b-8b9c02d74cb0"
-    },
-    {
       "name": "angy",
       "email": "angy@gmail.com",
       "password": "1234",
@@ -35,6 +17,12 @@
       "email": "liam@gmail.com",
       "password": "liam",
       "id": "1ff74d90-2de5-42fb-ad63-97f76b2d256e"
+    },
+    {
+      "name": "Constantino de la Mar",
+      "email": "constantino_mar@gmail.com",
+      "password": "cabocopito",
+      "id": "f6636d54-50d3-4389-9e3c-cb3a1691c804"
     }
   ],
   "categories": [
@@ -222,7 +210,7 @@
     },
     {
       "imageUrl": "https://m.media-amazon.com/images/I/817hf6mCrSL.__AC_SY445_SX342_QL70_ML2_.jpg",
-      "name": "Lámpara 3D Star Wars - Star Wars regalos - Star Wars luz - Star Wars lámpara y regalo perfecto para niños y fans de Star Wars (3 piezas)",
+      "name": "Lámpara 3D Star Wars - Star Wars gift - Star Wars.",
       "price": "451.98",
       "categoria": "StarWars",
       "description": "Efecto de visión 3D: las lámparas LED 3D mágicas juegan trucos en tus ojos, es una placa de vidrio guía de luz en real. Especialmente parece una luz nocturna 3D real en la oscuridad o tomar una fotografía, la emoción de visión será fuerte",

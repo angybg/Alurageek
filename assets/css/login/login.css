@@ -2,7 +2,10 @@
     background-color: #E5E5E5;
     align-items: center;
     justify-content: center;
-    height: 53vh;
+    /* height: 53vh; */
+    bottom: 10vh;
+    padding-bottom: 10vh;
+
 }
 
 .login__form {

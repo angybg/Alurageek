@@ -5,6 +5,7 @@
     box-sizing: border-box;
     max-width: 22.5rem;
     position: relative;
+    background-color: red;
 }
 
 .modal-container {

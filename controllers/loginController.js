@@ -2,6 +2,11 @@ const form = document.querySelector('[data-form]');
 const mail = document.querySelector('[data-email]');
 const pass = document.querySelector('[data-password]');
 
+function delayer()
+{
+    window.location.href = '../screens/adminProducts.html'
+}
+
 form.addEventListener('submit', async (e) => {
     e.preventDefault();
 
@@ -12,10 +17,19 @@ form.addEventListener('submit', async (e) => {
     if (user) {
         console.log('we have this user in the database')
 
-        window.location.href = '../screens/adminProducts.html'
+
+        Swal.fire({
+            position: 'center',
+            icon:'success', 
+            title:'Ingreso exitoso', 
+            showConfirmButton: false,
+            timer: 2000            
+        })
+
+        setTimeout(delayer,2200);
     } else {
         console.log('email or password - wrong or user not found')
-        swal.fire({
+        Swal.fire({
             icon: 'error',
             text: 'email or password - wrong or user not found',
             width: '15rem',

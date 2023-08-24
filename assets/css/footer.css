@@ -2,14 +2,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 30px 0;
+    padding: 3% 5%;
     align-items: flex-start;
-    width: 100%;
-    background-color: var(--color_fondo_claro)
+    width: 90%;
+    background-color: var(--color_fondo_claro);
+    margin: 15px 0px;
 }
 
 .contacto__info-li {
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .contacto__info-text:hover {
@@ -42,7 +43,7 @@
     flex-direction: column;
     background-color: #FFFFFF;
     padding: 10px;
-    margin: 1.3rem 0;
+    margin: 1rem 0;
     border-radius: 10px;
     box-shadow: 1px 3px 3px 0 rgba(22, 26, 45, 0.11);
     color: rgba(36, 57, 85, 0.11);
@@ -51,8 +52,8 @@
 .contacto__contactar-nombreInput {
     border: none;
     background-color: transparent;
-    margin-top: 8px;
-    margin-bottom: 16px;
+    /* margin-top: 8px;
+    margin-bottom: 16px; */
 }
 
 .contacto__contactar-nombreInput:focus {
@@ -99,31 +100,55 @@
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    gap: 1rem;
+    gap: .5rem;
+    padding: 10px 0;
 }
 .info__dev-text {
     font-family: var(--fuente_principal);
     font-size: 16px;
 }
 
-
-@media screen and (max-width: 360px) {
-    .contacto__container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .contacto__contactar {
-        width: 90%;
-    }
-
-    .contacto__info {
-        text-align: center;
-    }
+.profile__Lamm
+{
+    text-decoration: none;
+    color: var(--color_fondo-o-letra_botones-2);
 }
 
 @media screen and (max-width: 768px) {
     .contacto__container {
-        height: auto;
+        /* height: auto; */
+        align-items: flex-start;
+        justify-content: space-evenly;
+        gap: 16px;
+        flex-direction: column;
+    }
+
+
+
+    .contacto__contactar
+    {
+        align-self: flex-end;
+        position: absolute;
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .contacto__container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* background-color: red; */
+        
+    }
+
+    .contacto__contactar {
+        width: 90%;
+        position: relative;
+        align-self: center;
+    }
+
+    .contacto__info {
+        text-align: center;
     }
 }

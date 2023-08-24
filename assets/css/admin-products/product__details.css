@@ -7,7 +7,7 @@
 .details-product {
     display: flex;
     flex-flow: row nowrap;
-    gap: 4rem;
+    gap: 5%;
     margin: 5rem auto;
     padding: 5rem;
 }
@@ -16,9 +16,9 @@
     border-radius: 10px;
     box-shadow: 0 0 3px 1px grey;
     box-sizing: content-box;
+    width: 45%;
+    height: 45%;
     max-width: 550px;
-    /*width: 400px;*/
-    /*height: 350px;*/
 }
 
 .details-info {
@@ -32,12 +32,12 @@
     font-family: var(--fuente_principal);
     font-style: normal;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 3vw;
 }
 
 .details-price {
-    margin: 1rem auto;
-    font-size: 2rem;
+    margin: 1.2rem 0;
+    font-size: 2vw;
     font-weight: 700;
     font-family: var(--fuente_principal);
     color: var(--color_fondo-o-letra_botones-2);
@@ -45,34 +45,73 @@
 }
 
 .details-descripcion {
-    font-size: 12px;
+    font-size: 2vw;
     font-weight: 400;
     font-family: var(--fuente_principal);
     color: var(--color_letras-H2);
-    margin: 0 13px;
+    /* margin: 0 13px; */
 }
 
 .hidden {
     display: none !important;
 }
 
+@media screen and (max-width: 820px) 
+{
+    .details-product
+    {
+        gap: 1rem;
+        padding: 0;
+        width: 90%;
+        margin: 2rem auto;
 
-@media screen and (max-width: 360px) {
-    .product__details_container {
+    }
+
+    .details-img 
+    {
+        width: 35%;
+        height: 35%;
+    }
+
+    .details-name
+    {
+        font-size: 22px;
+    }
+    .details-price
+    {
+        margin: .5rem 0;
+        font-size: 1.5rem;
+    }
+
+    .details-descripcion
+    {
+        font-size: 1rem;
+    }
+
+}
+
+
+@media screen and (max-width: 460px) 
+{
+    .product__details_container 
+    {
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .details-title {
-        font-size: 30px;
+    .details-product
+    {
+        flex-flow: column;
     }
 
-    @media screen and (max-width: 768px) {
-        .details-img {
-            max-width: 250px;
-            height: auto;
-        }
+    .details-img
+    {
+        width: 100%;
+    }
 
+    .details-title 
+    {
+        font-size: 30px;
     }
 }
